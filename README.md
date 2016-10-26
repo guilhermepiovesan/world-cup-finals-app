@@ -25,6 +25,11 @@ yarn
 
 ## Usage
 
+Navigate into server folder:
+```
+cd server
+```
+
 Start MongoDB Server:
 ```
 mongod
