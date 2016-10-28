@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import {
+  ScrollView,
   StyleSheet,
   Text,
   TextInput,
@@ -48,13 +49,13 @@ class App extends Component {
     })(WorldCupFinal)
 
     return (
-      <View style={styles.container}>
+      <ScrollView contentContainerStyle={styles.container}>
         <Text style={styles.instructions}>
           Find World Cup Finals
         </Text>
-        <TextInput onChangeText={this.updateYear} style={styles.input} />
+        <TextInput onChangeText={this.updateYear} style={styles.input} keyboardType={'numeric'} maxLength={4} />
         <ViewWithData />
-      </View>
+      </ScrollView>
     )
   }
 }
@@ -75,6 +76,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#ddd',
     height: 50,
     margin: 20,
+    textAlign: 'center',
+    width: 50,
   },
 })
 
