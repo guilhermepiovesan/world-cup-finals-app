@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { AppRegistry } from 'react-native'
-import App from './app'
+import App from './App'
 
 import ApolloClient, { createNetworkInterface } from 'apollo-client'
 import { ApolloProvider } from 'react-apollo'
@@ -19,4 +19,4 @@ const Client = () => {
   )
 }
 
-AppRegistry.registerComponent('client', () => client);
+AppRegistry.registerComponent('client', () => Client);
