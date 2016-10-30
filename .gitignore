@@ -1,6 +1,4 @@
 
-# Created by https://www.gitignore.io/api/node,sublimetext
-
 ### Node ###
 # Logs
 logs
@@ -77,6 +75,12 @@ bh_unicode_properties.cache
 # https://packagecontrol.io/packages/sublime-github
 GitHub.sublime-settings
 
+
 ### Yarn ###
 # lock files 
 yarn.lock
+
+
+### Watchman ###
+# cookies files
+.watchman-cookie*
