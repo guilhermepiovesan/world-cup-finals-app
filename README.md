@@ -5,7 +5,7 @@ The application has two parts:
 * **Server**: NodeJS + Express + Apollo Server + GraphQL + Mongoose + MongoDB.
 * **Client**: React Native + Apollo Client
 
-## Setup
+## :soccer: Setup
 
 Clone this repo:
 ```
@@ -39,7 +39,7 @@ Set the 'const IP' values with yours IP, on file:
 index.android.js
 ```
 
-## Usage
+## :soccer: Usage
 
 ### Server Usage
 
